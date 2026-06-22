@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <!-- Fondo lino calido para todas las paginas -->
+    <Style TargetType="Page" ApplyToDerivedTypes="True">
+        <Setter Property="BackgroundColor" Value="#FAF7F2" />
+    </Style>
+
+    <Style TargetType="Label">
+        <Setter Property="FontFamily" Value="OpenSansRegular" />
+        <Setter Property="TextColor" Value="#1E2522" />
+    </Style>
+
+    <Style TargetType="Button">
+        <Setter Property="FontFamily" Value="OpenSansSemibold" />
+        <Setter Property="CornerRadius" Value="12" />
+        <Setter Property="Padding" Value="14,10" />
+    </Style>
+
+    <Style TargetType="Entry">
+        <Setter Property="TextColor" Value="#1E2522" />
+        <Setter Property="PlaceholderColor" Value="#A9A399" />
+    </Style>
+
+    <!-- Barra de navegacion en Verde Bosque (primario) -->
+    <Style TargetType="Shell" ApplyToDerivedTypes="True">
+        <Setter Property="Shell.BackgroundColor" Value="#2D4236" />
+        <Setter Property="Shell.ForegroundColor" Value="#FFFFFF" />
+        <Setter Property="Shell.TitleColor" Value="#FFFFFF" />
+    </Style>
+
+</ResourceDictionary>

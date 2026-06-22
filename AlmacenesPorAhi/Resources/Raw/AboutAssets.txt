@@ -1,0 +1,2 @@
+Los archivos en esta carpeta (y subcarpetas) se empaquetan como recursos
+de la aplicacion (MauiAsset) y pueden leerse en tiempo de ejecucion.

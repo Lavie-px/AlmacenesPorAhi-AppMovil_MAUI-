@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+    VISTA: MainMenuPage (pantalla de inicio / menu principal)
+    Muestra un saludo de bienvenida, el logo (globo) y el nombre de marca,
+    con un boton de acceso al modulo de inventario.
+
+    Diseno responsivo: el contenido se centra y limita su ancho maximo, de modo
+    que se ve bien tanto en telefono como en escritorio (ventana ancha).
+
+    Paleta Earthy Premium: fondo lino, primario verde bosque, acento terracota.
+-->
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:AlmacenesPorAhi.ViewModels"
+             x:Class="AlmacenesPorAhi.Views.MainMenuPage"
+             x:DataType="vm:MainMenuViewModel"
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="#FAF7F2">
+
+    <!-- Contenedor centrado con ancho maximo para adaptarse a cualquier pantalla -->
+    <Grid RowDefinitions="*,Auto,*"
+          Padding="28"
+          MaximumWidthRequest="520"
+          HorizontalOptions="Center">
+
+        <!-- Bloque central: saludo + logo + nombre de marca -->
+        <VerticalStackLayout Grid.Row="1" Spacing="12" VerticalOptions="Center" HorizontalOptions="Center">
+
+            <Label Text="¡Bienvenido!"
+                   FontSize="20"
+                   TextColor="#7A847C"
+                   HorizontalOptions="Center" />
+
+            <!-- Logo (solo globo, escala sin recortarse) -->
+            <Image Source="almacenapp_logo.png"
+                   Aspect="AspectFit"
+                   HeightRequest="150"
+                   HorizontalOptions="Center" />
+
+            <!-- Nombre de marca con texto de MAUI (responsivo, no se recorta) -->
+            <Label HorizontalOptions="Center" HorizontalTextAlignment="Center">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Almacenes " FontSize="30" FontAttributes="Bold" TextColor="#2D4236" />
+                        <Span Text="Por Ahí" FontSize="30" FontAttributes="Bold" TextColor="#E76F51" />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+
+            <!-- Linea decorativa en oro viejo -->
+            <BoxView HeightRequest="3" WidthRequest="60" CornerRadius="2"
+                     Color="#D4A373" HorizontalOptions="Center" />
+        </VerticalStackLayout>
+
+        <!-- Acciones (parte inferior) -->
+        <VerticalStackLayout Grid.Row="2" Spacing="14" VerticalOptions="End">
+
+            <!-- ACCION PRINCIPAL (acento terracota): entra al modulo -->
+            <Button Text="Gestión de Inventario"
+                    HeightRequest="56"
+                    BackgroundColor="#E76F51"
+                    TextColor="#FFFFFF"
+                    FontSize="17"
+                    FontAttributes="Bold"
+                    Command="{Binding IrAInventarioCommand}" />
+
+            <Label Text="Módulo 1 · Productos"
+                   FontSize="12"
+                   TextColor="#7A847C"
+                   HorizontalOptions="Center" />
+        </VerticalStackLayout>
+    </Grid>
+</ContentPage>

@@ -1,0 +1,84 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<!-- ============================================================
+		     PLATAFORMA OBJETIVO  ==  WINDOWS sobre .NET 10
+		     ============================================================
+		     El proyecto apunta a .NET 10 y solo a Windows, para coincidir
+		     con la carga de trabajo instalada en el equipo (maui-windows,
+		     banda 10.0.100). Asi se restauran y resuelven correctamente los
+		     ensamblados de .NET MAUI.
+
+		     Para agregar Android/iOS/MacCatalyst mas adelante, se instalan
+		     esos workloads y se cambia a <TargetFrameworks> agregando los
+		     TFM correspondientes (net10.0-android, etc.).
+		     ============================================================ -->
+		<TargetFramework>net10.0-windows10.0.19041.0</TargetFramework>
+
+		<OutputType>Exe</OutputType>
+		<RootNamespace>AlmacenesPorAhi</RootNamespace>
+		<UseMaui>true</UseMaui>
+		<SingleProject>true</SingleProject>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+
+		<!-- Identidad de la aplicacion -->
+		<ApplicationTitle>Almacenes Por Ahi</ApplicationTitle>
+		<ApplicationId>com.almacenesporahi.app</ApplicationId>
+		<ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
+		<ApplicationVersion>1</ApplicationVersion>
+
+		<SupportedOSPlatformVersion>10.0.17763.0</SupportedOSPlatformVersion>
+		<TargetPlatformMinVersion>10.0.17763.0</TargetPlatformMinVersion>
+
+		<!-- ============================================================
+		     EJECUCION EN WINDOWS  ==  MODO DESEMPAQUETADO (unpackaged)
+		     ============================================================
+		     WindowsPackageType=None hace que la app corra como un .exe de
+		     escritorio normal, SIN empaquetado MSIX. No requiere activar el
+		     Modo de desarrollador de Windows y evita el error del perfil
+		     "Windows Machine / MsixPackage". El perfil de ejecucion
+		     (Properties/launchSettings.json) usa el comando "Project".
+		     ============================================================ -->
+		<WindowsPackageType>None</WindowsPackageType>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<!-- Icono e imagen de bienvenida -->
+		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#2D4236" />
+		<MauiSplashScreen Include="Resources\Splash\splash.svg" Color="#2D4236" BaseSize="128,128" />
+
+		<MauiImage Include="Resources\Images\*" />
+		<MauiFont Include="Resources\Fonts\*" />
+		<MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<!-- ============================================================
+		     PAQUETES NuGet
+		     ============================================================
+		     CommunityToolkit.Mvvm : ObservableObject y RelayCommand (MVVM).
+		     EntityFrameworkCore   : ORM (clases C# -> tablas).
+		     Pomelo.EntityFrameworkCore.MySql : proveedor para MySQL/MariaDB.
+		     Extensions.Configuration.Json : lectura de appsettings.json.
+		     Extensions.Logging.Debug      : logs en la consola de depuracion.
+
+		     El stack de EF Core se alinea en 10.0.9 (todos los paquetes EF Core
+		     deben compartir version). Coincide con .NET 10 y MAUI 10.
+		     ============================================================ -->
+		<PackageReference Include="CommunityToolkit.Mvvm" Version="8.3.2" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0" />
+		<PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="9.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="9.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="9.0.0" />
+	</ItemGroup>
+
+	<!-- ============================================================
+	     CONFIGURACION EXTERNA (appsettings.json embebido)
+	     ============================================================ -->
+	<ItemGroup>
+		<None Remove="appsettings.json" />
+		<EmbeddedResource Include="appsettings.json" />
+	</ItemGroup>
+
+</Project>

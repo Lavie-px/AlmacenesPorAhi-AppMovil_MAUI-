@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <!-- ================================================================ -->
+    <!-- PALETA "EARTHY PREMIUM"                                          -->
+    <!-- Primario (identidad)  : #2D4236  Verde Bosque Profundo           -->
+    <!-- Acento (conversion)   : #E76F51  Terracota Suave                 -->
+    <!-- Acento oro            : #D4A373  Cafe / Oro Viejo                -->
+    <!-- Fondo (neutro claro)  : #FAF7F2  Arena / Lino                    -->
+    <!-- Superficie (tarjetas) : #FFFFFF  Blanco Puro                     -->
+    <!-- Texto principal       : #1E2522  Negro Verdoso                   -->
+    <!-- ================================================================ -->
+
+    <Color x:Key="Primary">#2D4236</Color>
+    <Color x:Key="Accent">#E76F51</Color>
+    <Color x:Key="AccentGold">#D4A373</Color>
+    <Color x:Key="Fondo">#FAF7F2</Color>
+    <Color x:Key="Superficie">#FFFFFF</Color>
+    <Color x:Key="TextoPrincipal">#1E2522</Color>
+    <Color x:Key="TextoTenue">#6F7670</Color>
+    <Color x:Key="Borde">#E7E1D8</Color>
+    <Color x:Key="Peligro">#9C3D2E</Color>
+    <Color x:Key="White">#FFFFFF</Color>
+    <Color x:Key="Black">#000000</Color>
+</ResourceDictionary>

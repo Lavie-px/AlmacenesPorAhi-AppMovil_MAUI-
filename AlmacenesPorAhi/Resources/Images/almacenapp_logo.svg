@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="45 62 178 110" width="178" height="110">
+  <defs>
+    <clipPath id="earth-clip">
+      <circle cx="100" cy="100" r="45" />
+    </clipPath>
+    <linearGradient id="ocean" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2D4236" />
+      <stop offset="100%" stop-color="#1E2522" />
+    </linearGradient>
+    <linearGradient id="land" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FAF7F2" />
+      <stop offset="100%" stop-color="#D4A373" />
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(30, 15)">
+    <path d="M 15 100 A 85 30 0 0 1 185 100" fill="none" stroke="#D4A373" stroke-width="2.5" stroke-dasharray="6,4" opacity="0.5" transform="rotate(-15 100 100)"/>
+    <g>
+      <circle cx="100" cy="100" r="45" fill="url(#ocean)" />
+      <g clip-path="url(#earth-clip)" fill="url(#land)">
+        <path d="M 65 65 Q 85 55 100 75 Q 95 105 60 100 Z" />
+        <path d="M 115 70 Q 145 75 135 110 Q 100 120 110 90 Z" />
+        <path d="M 75 125 Q 95 115 105 140 Q 80 155 65 135 Z" />
+      </g>
+      <circle cx="100" cy="100" r="45" fill="none" stroke="#1E2522" stroke-width="8" opacity="0.3" />
+    </g>
+    <path d="M 185 100 A 85 30 0 0 1 15 100" fill="none" stroke="#D4A373" stroke-width="2.5" stroke-dasharray="6,4" transform="rotate(-15 100 100)"/>
+    <g transform="translate(162, 92)">
+      <polygon points="12,24 24,18 12,12 0,18" fill="#1E2522" opacity="0.25" transform="translate(0, 6)" />
+      <polygon points="12,0 24,6 12,12 0,6" fill="#FAF7F2" />
+      <polygon points="5,2.5 19,9.5 17,10.5 3,3.5" fill="#2D4236" opacity="0.8" />
+      <polygon points="0,6 12,12 12,24 0,18" fill="#D4A373" />
+      <polygon points="12,12 24,6 24,18 12,24" fill="#E76F51" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+    VISTA: ProductoFormPage (alta / edicion de producto)
+    Cada campo se enlaza de forma bidireccional a una propiedad del ViewModel.
+    Paleta Earthy Premium. El acento terracota se reserva al boton "Guardar".
+-->
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:AlmacenesPorAhi.ViewModels"
+             x:Class="AlmacenesPorAhi.Views.ProductoFormPage"
+             x:DataType="vm:ProductoFormViewModel"
+             Title="{Binding Titulo}"
+             BackgroundColor="#FAF7F2">
+
+    <ScrollView>
+        <Grid>
+        <VerticalStackLayout Padding="16" Spacing="16"
+                             MaximumWidthRequest="600" HorizontalOptions="Center">
+
+            <Border Background="#FFFFFF" StrokeThickness="0" Padding="18"
+                    StrokeShape="RoundRectangle 16">
+                <Border.Shadow>
+                    <Shadow Brush="#2D4236" Opacity="0.08" Radius="12" Offset="0,4" />
+                </Border.Shadow>
+
+                <VerticalStackLayout Spacing="16">
+
+                    <!-- Foto del producto: vista previa + selector -->
+                    <VerticalStackLayout Spacing="10" HorizontalOptions="Center">
+                        <Grid WidthRequest="130" HeightRequest="130" HorizontalOptions="Center">
+                            <Border Background="#F1EADD" StrokeThickness="0"
+                                    StrokeShape="RoundRectangle 16">
+                                <Label Text="Sin foto" FontSize="13" TextColor="#B6A88E"
+                                       HorizontalOptions="Center" VerticalOptions="Center" />
+                            </Border>
+                            <Border IsVisible="{Binding TieneImagen}" StrokeThickness="0"
+                                    StrokeShape="RoundRectangle 16">
+                                <Image Source="{Binding ImagenUrl}" Aspect="AspectFill" />
+                            </Border>
+                        </Grid>
+                        <Button Text="Seleccionar foto" FontSize="13"
+                                BackgroundColor="Transparent" TextColor="#2D4236"
+                                BorderColor="#2D4236" BorderWidth="1"
+                                Command="{Binding SeleccionarFotoCommand}" />
+                    </VerticalStackLayout>
+
+                    <Label Text="Datos del producto" FontAttributes="Bold"
+                           FontSize="18" TextColor="#2D4236" />
+
+                    <!-- Nombre -->
+                    <VerticalStackLayout Spacing="6">
+                        <Label Text="Nombre" FontAttributes="Bold" />
+                        <Border Background="#FFFFFF" Stroke="#EAE3D9" StrokeThickness="1"
+                                StrokeShape="RoundRectangle 10" Padding="10,0">
+                            <Entry Text="{Binding Nombre}" Placeholder="Ej: Polera basica" />
+                        </Border>
+                    </VerticalStackLayout>
+
+                    <!-- Descripcion -->
+                    <VerticalStackLayout Spacing="6">
+                        <Label Text="Descripcion" FontAttributes="Bold" />
+                        <Border Background="#FFFFFF" Stroke="#EAE3D9" StrokeThickness="1"
+                                StrokeShape="RoundRectangle 10" Padding="10,4">
+                            <Editor Text="{Binding Descripcion}" Placeholder="Descripcion del producto (opcional)"
+                                    AutoSize="TextChanges" HeightRequest="70" />
+                        </Border>
+                    </VerticalStackLayout>
+
+                    <!-- Categoria -->
+                    <VerticalStackLayout Spacing="6">
+                        <Label Text="Categoria" FontAttributes="Bold" />
+                        <Border Background="#FFFFFF" Stroke="#EAE3D9" StrokeThickness="1"
+                                StrokeShape="RoundRectangle 10" Padding="10,0">
+                            <Entry Text="{Binding Categoria}" Placeholder="Ej: Poleras, Pantalones..." />
+                        </Border>
+                    </VerticalStackLayout>
+
+                    <!-- Talla (selector) + Color -->
+                    <Grid ColumnDefinitions="*,*" ColumnSpacing="12">
+                        <VerticalStackLayout Grid.Column="0" Spacing="6">
+                            <Label Text="Talla" FontAttributes="Bold" />
+                            <Border Background="#FFFFFF" Stroke="#EAE3D9" StrokeThickness="1"
+                                    StrokeShape="RoundRectangle 10" Padding="10,0">
+                                <Picker ItemsSource="{Binding Tallas}" SelectedItem="{Binding Talla}" Title="Talla" />
+                            </Border>
+                        </VerticalStackLayout>
+                        <VerticalStackLayout Grid.Column="1" Spacing="6">
+                            <Label Text="Color" FontAttributes="Bold" />
+                            <Border Background="#FFFFFF" Stroke="#EAE3D9" StrokeThickness="1"
+                                    StrokeShape="RoundRectangle 10" Padding="10,0">
+                                <Entry Text="{Binding Color}" Placeholder="Ej: Azul" />
+                            </Border>
+                        </VerticalStackLayout>
+                    </Grid>
+
+                    <!-- Precio + Stock -->
+                    <Grid ColumnDefinitions="*,*" ColumnSpacing="12">
+                        <VerticalStackLayout Grid.Column="0" Spacing="6">
+                            <Label Text="Precio (CLP)" FontAttributes="Bold" />
+                            <Border Background="#FFFFFF" Stroke="#EAE3D9" StrokeThickness="1"
+                                    StrokeShape="RoundRectangle 10" Padding="10,0">
+                                <Entry Text="{Binding Precio}" Keyboard="Numeric" Placeholder="0" />
+                            </Border>
+                        </VerticalStackLayout>
+                        <VerticalStackLayout Grid.Column="1" Spacing="6">
+                            <Label Text="Stock" FontAttributes="Bold" />
+                            <Border Background="#FFFFFF" Stroke="#EAE3D9" StrokeThickness="1"
+                                    StrokeShape="RoundRectangle 10" Padding="10,0">
+                                <Entry Text="{Binding Stock}" Keyboard="Numeric" Placeholder="0" />
+                            </Border>
+                        </VerticalStackLayout>
+                    </Grid>
+
+                    <!-- Estado (selector) -->
+                    <VerticalStackLayout Spacing="6">
+                        <Label Text="Estado" FontAttributes="Bold" />
+                        <Border Background="#FFFFFF" Stroke="#EAE3D9" StrokeThickness="1"
+                                StrokeShape="RoundRectangle 10" Padding="10,0">
+                            <Picker ItemsSource="{Binding Estados}" SelectedItem="{Binding Estado}" Title="Estado" />
+                        </Border>
+                    </VerticalStackLayout>
+                </VerticalStackLayout>
+            </Border>
+
+            <!-- ACCION PRINCIPAL: acento terracota -->
+            <Button Text="Guardar" HeightRequest="54"
+                    BackgroundColor="#E76F51" TextColor="#FFFFFF"
+                    FontAttributes="Bold" FontSize="16"
+                    Command="{Binding GuardarCommand}" />
+
+            <Button Text="Cancelar" HeightRequest="48"
+                    BackgroundColor="Transparent" TextColor="#7A847C"
+                    BorderColor="#D8D0C2" BorderWidth="1"
+                    Command="{Binding CancelarCommand}" />
+        </VerticalStackLayout>
+        </Grid>
+    </ScrollView>
+</ContentPage>
