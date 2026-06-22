@@ -65,6 +65,7 @@ public static class MauiProgram
         // 4. Inyeccion de dependencia.
         // Servicio de negocio (usa el DbContext a traves de la fabrica).
         builder.Services.AddSingleton<IProductoService, ProductoService>();
+        builder.Services.AddTransient<IClienteService, ClienteService>();
 
         // ViewModels (uno nuevo por navegacion).
         builder.Services.AddTransient<MainMenuViewModel>();

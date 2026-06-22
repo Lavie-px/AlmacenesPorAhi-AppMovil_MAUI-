@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:AlmacenesPorAhi.ViewModels"
+             xmlns:models="clr-namespace:AlmacenesPorAhi.Models"
+             x:Class="AlmacenesPorAhi.Views.ClientesListPage"
+             x:Name="Pagina"
+             x:DataType="vm:ClienteListViewModel"
+             Title="{Binding Titulo}"
+             BackgroundColor="#FAF7F2">
+
+    <Grid RowDefinitions="Auto,*,Auto"
+          MaximumWidthRequest="820"
+          HorizontalOptions="Center">
+
+        <!-- ERROR -->
+        <Border Grid.Row="0"
+                IsVisible="{Binding HayError}"
+                Background="#FBEAE5"
+                Stroke="#E8C4B8"
+                StrokeThickness="1"
+                Margin="14,14,14,0"
+                Padding="14"
+                StrokeShape="RoundRectangle 12">
+
+            <Label Text="{Binding MensajeError}"
+                   TextColor="#8A3B28"
+                   FontSize="13" />
+        </Border>
+
+        <!-- LOADING -->
+        <ActivityIndicator Grid.Row="1"
+                           IsRunning="{Binding EstaCargando}"
+                           IsVisible="{Binding EstaCargando}"
+                           VerticalOptions="Center"
+                           HorizontalOptions="Center"
+                           Color="#2D4236" />
+
+        <!-- LISTA CLIENTES -->
+        <CollectionView Grid.Row="1"
+                        ItemsSource="{Binding Clientes}"
+                        Margin="14,12,14,4">
+
+            <CollectionView.EmptyView>
+                <VerticalStackLayout VerticalOptions="Center"
+                                     HorizontalOptions="Center"
+                                     Spacing="6">
+
+                    <Label Text="Sin clientes"
+                           FontSize="18"
+                           FontAttributes="Bold"
+                           TextColor="#2D4236"
+                           HorizontalOptions="Center" />
+
+                    <Label Text="Agrega tu primer cliente con el botón de abajo."
+                           TextColor="#7A847C"
+                           HorizontalOptions="Center" />
+                </VerticalStackLayout>
+            </CollectionView.EmptyView>
+
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="models:Cliente">
+
+                    <Border Background="#FFFFFF"
+                            StrokeThickness="0"
+                            Margin="0,7"
+                            StrokeShape="RoundRectangle 16">
+
+                        <Border.Shadow>
+                            <Shadow Brush="#2D4236"
+                                    Opacity="0.10"
+                                    Radius="12"
+                                    Offset="0,4" />
+                        </Border.Shadow>
+
+                        <VerticalStackLayout Spacing="0">
+
+                            <Grid ColumnDefinitions="*"
+                                  Padding="14">
+
+                                <!-- INFO CLIENTE -->
+                                <VerticalStackLayout Spacing="4">
+
+                                    <Label Text="{Binding Nombre}"
+                                           FontAttributes="Bold"
+                                           FontSize="16"
+                                           TextColor="#2D4236" />
+
+                                    <Label FontSize="12"
+                                           TextColor="#7A847C">
+                                        <Label.Text>
+                                            <MultiBinding StringFormat="{}{0} {1}">
+                                                <Binding Path="ApellidoPaterno" />
+                                                <Binding Path="ApellidoMaterno" />
+                                            </MultiBinding>
+                                        </Label.Text>
+                                    </Label>
+
+                                    <Label Text="{Binding Rut}"
+                                           FontSize="12"
+                                           TextColor="#7A847C" />
+
+                                    <Label Text="{Binding Email}"
+                                           FontSize="12"
+                                           TextColor="#7A847C" />
+
+                                    <Label Text="{Binding Telefono}"
+                                           FontSize="12"
+                                           TextColor="#7A847C" />
+
+                                    <!-- Estado -->
+                                    <Border Background="#F0E6D6"
+                                            StrokeThickness="0"
+                                            Padding="8,3"
+                                            StrokeShape="RoundRectangle 8">
+
+                                        <Label Text="{Binding Estado}"
+                                               FontSize="11"
+                                               TextColor="#8A6A3E" />
+                                    </Border>
+
+                                </VerticalStackLayout>
+                            </Grid>
+
+                            <BoxView HeightRequest="1"
+                                     Color="#EAE3D9" />
+
+                            <!-- ACCIONES -->
+                            <Grid ColumnDefinitions="*,*"
+                                  Padding="8"
+                                  ColumnSpacing="8">
+
+                                <Button Grid.Column="0"
+                                        Text="Editar"
+                                        FontSize="13"
+                                        BackgroundColor="Transparent"
+                                        TextColor="#2D4236"
+                                        BorderColor="#2D4236"
+                                        BorderWidth="1"
+                                        Command="{Binding Source={x:Reference Pagina}, Path=BindingContext.EditarCommand}"
+                                        CommandParameter="{Binding .}" />
+
+                                <Button Grid.Column="1"
+                                        Text="Eliminar"
+                                        FontSize="13"
+                                        BackgroundColor="Transparent"
+                                        TextColor="#A4453A"
+                                        BorderColor="#E1B3A8"
+                                        BorderWidth="1"
+                                        Command="{Binding Source={x:Reference Pagina}, Path=BindingContext.EliminarCommand}"
+                                        CommandParameter="{Binding .}" />
+                            </Grid>
+
+                        </VerticalStackLayout>
+                    </Border>
+
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <!-- BOTÓN PRINCIPAL -->
+        <Button Grid.Row="2"
+                Text="+   Agregar cliente"
+                Margin="14,6,14,14"
+                HeightRequest="54"
+                BackgroundColor="#E76F51"
+                TextColor="#FFFFFF"
+                FontAttributes="Bold"
+                FontSize="16"
+                Command="{Binding AgregarCommand}" />
+    </Grid>
+</ContentPage>

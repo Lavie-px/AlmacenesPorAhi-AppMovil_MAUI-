@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:AlmacenesPorAhi.ViewModels"
+             x:Class="AlmacenesPorAhi.Views.ClienteFormPage"
+             x:DataType="vm:ClienteFormViewModel"
+             Title="{Binding Titulo}"
+             BackgroundColor="#FAF7F2">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="16"
+                             Spacing="16"
+                             MaximumWidthRequest="600"
+                             HorizontalOptions="Center">
+
+            <!-- CARD PRINCIPAL -->
+            <Border Background="#FFFFFF"
+                    StrokeThickness="0"
+                    Padding="18"
+                    StrokeShape="RoundRectangle 16">
+
+                <Border.Shadow>
+                    <Shadow Brush="#2D4236"
+                            Opacity="0.08"
+                            Radius="12"
+                            Offset="0,4" />
+                </Border.Shadow>
+
+                <VerticalStackLayout Spacing="16">
+
+                    <Label Text="Datos del cliente"
+                           FontAttributes="Bold"
+                           FontSize="18"
+                           TextColor="#2D4236" />
+
+                    <!-- NOMBRE -->
+                    <VerticalStackLayout Spacing="6">
+                        <Label Text="Nombre" FontAttributes="Bold" />
+                        <Border Stroke="#EAE3D9"
+                                StrokeThickness="1"
+                                StrokeShape="RoundRectangle 10"
+                                Padding="10,0">
+                            <Entry Text="{Binding Nombre}"
+                                   Placeholder="Ej: Juan" />
+                        </Border>
+                    </VerticalStackLayout>
+
+                    <!-- APELLIDOS -->
+                    <Grid ColumnDefinitions="*,*"
+                          ColumnSpacing="12">
+
+                        <VerticalStackLayout Grid.Column="0" Spacing="6">
+                            <Label Text="Apellido paterno" FontAttributes="Bold" />
+                            <Border Stroke="#EAE3D9"
+                                    StrokeThickness="1"
+                                    StrokeShape="RoundRectangle 10"
+                                    Padding="10,0">
+                                <Entry Text="{Binding ApellidoPaterno}"
+                                       Placeholder="Paterno" />
+                            </Border>
+                        </VerticalStackLayout>
+
+                        <VerticalStackLayout Grid.Column="1" Spacing="6">
+                            <Label Text="Apellido materno" FontAttributes="Bold" />
+                            <Border Stroke="#EAE3D9"
+                                    StrokeThickness="1"
+                                    StrokeShape="RoundRectangle 10"
+                                    Padding="10,0">
+                                <Entry Text="{Binding ApellidoMaterno}"
+                                       Placeholder="Materno" />
+                            </Border>
+                        </VerticalStackLayout>
+                    </Grid>
+
+                    <!-- RUT -->
+                    <VerticalStackLayout Spacing="6">
+                        <Label Text="RUT" FontAttributes="Bold" />
+                        <Border Stroke="#EAE3D9"
+                                StrokeThickness="1"
+                                StrokeShape="RoundRectangle 10"
+                                Padding="10,0">
+                            <Entry Text="{Binding Rut}"
+                                   Placeholder="12.345.678-9" />
+                        </Border>
+                    </VerticalStackLayout>
+
+                    <!-- EMAIL -->
+                    <VerticalStackLayout Spacing="6">
+                        <Label Text="Email" FontAttributes="Bold" />
+                        <Border Stroke="#EAE3D9"
+                                StrokeThickness="1"
+                                StrokeShape="RoundRectangle 10"
+                                Padding="10,0">
+                            <Entry Text="{Binding Email}"
+                                   Keyboard="Email"
+                                   Placeholder="correo@ejemplo.com" />
+                        </Border>
+                    </VerticalStackLayout>
+
+                    <!-- TELEFONO -->
+                    <VerticalStackLayout Spacing="6">
+                        <Label Text="Teléfono" FontAttributes="Bold" />
+                        <Border Stroke="#EAE3D9"
+                                StrokeThickness="1"
+                                StrokeShape="RoundRectangle 10"
+                                Padding="10,0">
+                            <Entry Text="{Binding Telefono}"
+                                   Keyboard="Telephone"
+                                   Placeholder="+56 9..." />
+                        </Border>
+                    </VerticalStackLayout>
+
+                    <!-- PREFERENCIAS -->
+                    <VerticalStackLayout Spacing="6">
+                        <Label Text="Preferencias" FontAttributes="Bold" />
+                        <Border Stroke="#EAE3D9"
+                                StrokeThickness="1"
+                                StrokeShape="RoundRectangle 10"
+                                Padding="10,4">
+                            <Editor Text="{Binding Preferencias}"
+                                    AutoSize="TextChanges"
+                                    HeightRequest="70"
+                                    Placeholder="Notas o preferencias del cliente..." />
+                        </Border>
+                    </VerticalStackLayout>
+
+                    <!-- ESTADO -->
+                    <VerticalStackLayout Spacing="6">
+                        <Label Text="Estado" FontAttributes="Bold" />
+                        <Border Stroke="#EAE3D9"
+                                StrokeThickness="1"
+                                StrokeShape="RoundRectangle 10"
+                                Padding="10,0">
+                            <Picker ItemsSource="{Binding Estados}"
+                                    SelectedItem="{Binding Estado}"
+                                    Title="Estado" />
+                        </Border>
+                    </VerticalStackLayout>
+
+                </VerticalStackLayout>
+            </Border>
+
+            <!-- BOTONES -->
+            <Button Text="Guardar"
+                    HeightRequest="54"
+                    BackgroundColor="#E76F51"
+                    TextColor="#FFFFFF"
+                    FontAttributes="Bold"
+                    FontSize="16"
+                    Command="{Binding GuardarCommand}" />
+
+            <Button Text="Cancelar"
+                    HeightRequest="48"
+                    BackgroundColor="Transparent"
+                    TextColor="#7A847C"
+                    BorderColor="#D8D0C2"
+                    BorderWidth="1"
+                    Command="{Binding CancelarCommand}" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

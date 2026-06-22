@@ -80,5 +80,21 @@
 		<None Remove="appsettings.json" />
 		<EmbeddedResource Include="appsettings.json" />
 	</ItemGroup>
+	<ItemGroup>
+	  <Compile Update="Views\ClienteListPage.xaml.cs">
+	    <DependentUpon>ClienteListPage.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Views\ClienteFormPage.xaml.cs">
+	    <DependentUpon>ClienteFormPage.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+	<ItemGroup>
+	  <MauiXaml Update="Views\ClienteListPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\ClienteFormPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	</ItemGroup>
 
 </Project>

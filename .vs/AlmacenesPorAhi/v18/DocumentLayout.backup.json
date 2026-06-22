@@ -3,20 +3,72 @@
   "WorkspaceRootPath": "C:\\Users\\jose9\\source\\repos\\net maui\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|AlmacenesPorAhi\\AlmacenesPorAhi.csproj|c:\\users\\jose9\\source\\repos\\net maui\\almacenesporahi\\viewmodels\\clienteformviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|AlmacenesPorAhi\\AlmacenesPorAhi.csproj|solutionrelative:almacenesporahi\\viewmodels\\clienteformviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|AlmacenesPorAhi\\AlmacenesPorAhi.csproj|c:\\users\\jose9\\source\\repos\\net maui\\almacenesporahi\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|AlmacenesPorAhi\\AlmacenesPorAhi.csproj|solutionrelative:almacenesporahi\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|AlmacenesPorAhi\\AlmacenesPorAhi.csproj|c:\\users\\jose9\\source\\repos\\net maui\\almacenesporahi\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|AlmacenesPorAhi\\AlmacenesPorAhi.csproj|solutionrelative:almacenesporahi\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|AlmacenesPorAhi\\AlmacenesPorAhi.csproj|c:\\users\\jose9\\source\\repos\\net maui\\almacenesporahi\\viewmodels\\clientelistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|AlmacenesPorAhi\\AlmacenesPorAhi.csproj|solutionrelative:almacenesporahi\\viewmodels\\clientelistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|AlmacenesPorAhi\\AlmacenesPorAhi.csproj|c:\\users\\jose9\\source\\repos\\net maui\\almacenesporahi\\services\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|AlmacenesPorAhi\\AlmacenesPorAhi.csproj|solutionrelative:almacenesporahi\\services\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|AlmacenesPorAhi\\AlmacenesPorAhi.csproj|c:\\users\\jose9\\source\\repos\\net maui\\almacenesporahi\\services\\iclienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|AlmacenesPorAhi\\AlmacenesPorAhi.csproj|solutionrelative:almacenesporahi\\services\\iclienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|AlmacenesPorAhi\\AlmacenesPorAhi.csproj|c:\\users\\jose9\\source\\repos\\net maui\\almacenesporahi\\services\\iproductoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|AlmacenesPorAhi\\AlmacenesPorAhi.csproj|solutionrelative:almacenesporahi\\services\\iproductoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|AlmacenesPorAhi\\AlmacenesPorAhi.csproj|c:\\users\\jose9\\source\\repos\\net maui\\almacenesporahi\\viewmodels\\mainmenuviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|AlmacenesPorAhi\\AlmacenesPorAhi.csproj|solutionrelative:almacenesporahi\\viewmodels\\mainmenuviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|AlmacenesPorAhi\\AlmacenesPorAhi.csproj|c:\\users\\jose9\\source\\repos\\net maui\\almacenesporahi\\helpers\\databaseerrors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|AlmacenesPorAhi\\AlmacenesPorAhi.csproj|solutionrelative:almacenesporahi\\helpers\\databaseerrors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|AlmacenesPorAhi\\AlmacenesPorAhi.csproj|c:\\users\\jose9\\source\\repos\\net maui\\almacenesporahi\\views\\clienteformpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|AlmacenesPorAhi\\AlmacenesPorAhi.csproj|solutionrelative:almacenesporahi\\views\\clienteformpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|AlmacenesPorAhi\\AlmacenesPorAhi.csproj|c:\\users\\jose9\\source\\repos\\net maui\\almacenesporahi\\views\\clienteformpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|AlmacenesPorAhi\\AlmacenesPorAhi.csproj|solutionrelative:almacenesporahi\\views\\clienteformpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|AlmacenesPorAhi\\AlmacenesPorAhi.csproj|c:\\users\\jose9\\source\\repos\\net maui\\almacenesporahi\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|AlmacenesPorAhi\\AlmacenesPorAhi.csproj|solutionrelative:almacenesporahi\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|AlmacenesPorAhi\\AlmacenesPorAhi.csproj|c:\\users\\jose9\\source\\repos\\net maui\\almacenesporahi\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|AlmacenesPorAhi\\AlmacenesPorAhi.csproj|solutionrelative:almacenesporahi\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|AlmacenesPorAhi\\AlmacenesPorAhi.csproj|c:\\users\\jose9\\source\\repos\\net maui\\almacenesporahi\\services\\productoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|AlmacenesPorAhi\\AlmacenesPorAhi.csproj|solutionrelative:almacenesporahi\\services\\productoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|AlmacenesPorAhi\\AlmacenesPorAhi.csproj|c:\\users\\jose9\\source\\repos\\net maui\\almacenesporahi\\views\\clientelistpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|AlmacenesPorAhi\\AlmacenesPorAhi.csproj|solutionrelative:almacenesporahi\\views\\clientelistpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|AlmacenesPorAhi\\AlmacenesPorAhi.csproj|c:\\users\\jose9\\source\\repos\\net maui\\almacenesporahi\\views\\clientelistpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|AlmacenesPorAhi\\AlmacenesPorAhi.csproj|solutionrelative:almacenesporahi\\views\\clientelistpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|AlmacenesPorAhi\\AlmacenesPorAhi.csproj|c:\\users\\jose9\\source\\repos\\net maui\\almacenesporahi\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|AlmacenesPorAhi\\AlmacenesPorAhi.csproj|solutionrelative:almacenesporahi\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|AlmacenesPorAhi\\AlmacenesPorAhi.csproj|c:\\users\\jose9\\source\\repos\\net maui\\almacenesporahi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|AlmacenesPorAhi\\AlmacenesPorAhi.csproj|solutionrelative:almacenesporahi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|AlmacenesPorAhi\\AlmacenesPorAhi.csproj|c:\\users\\jose9\\source\\repos\\net maui\\almacenesporahi\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|AlmacenesPorAhi\\AlmacenesPorAhi.csproj|solutionrelative:almacenesporahi\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +78,206 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\jose9\\source\\repos\\net maui\\AlmacenesPorAhi\\Models\\Producto.cs",
+              "RelativeDocumentMoniker": "AlmacenesPorAhi\\Models\\Producto.cs",
+              "ToolTip": "C:\\Users\\jose9\\source\\repos\\net maui\\AlmacenesPorAhi\\Models\\Producto.cs",
+              "RelativeToolTip": "AlmacenesPorAhi\\Models\\Producto.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAiwFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T06:14:33.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\jose9\\source\\repos\\net maui\\AlmacenesPorAhi\\Models\\Cliente.cs",
+              "RelativeDocumentMoniker": "AlmacenesPorAhi\\Models\\Cliente.cs",
+              "ToolTip": "C:\\Users\\jose9\\source\\repos\\net maui\\AlmacenesPorAhi\\Models\\Cliente.cs",
+              "RelativeToolTip": "AlmacenesPorAhi\\Models\\Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T06:14:31.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DatabaseErrors.cs",
+              "DocumentMoniker": "C:\\Users\\jose9\\source\\repos\\net maui\\AlmacenesPorAhi\\Helpers\\DatabaseErrors.cs",
+              "RelativeDocumentMoniker": "AlmacenesPorAhi\\Helpers\\DatabaseErrors.cs",
+              "ToolTip": "C:\\Users\\jose9\\source\\repos\\net maui\\AlmacenesPorAhi\\Helpers\\DatabaseErrors.cs",
+              "RelativeToolTip": "AlmacenesPorAhi\\Helpers\\DatabaseErrors.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T06:14:30.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ClienteFormPage.xaml",
+              "DocumentMoniker": "C:\\Users\\jose9\\source\\repos\\net maui\\AlmacenesPorAhi\\Views\\ClienteFormPage.xaml",
+              "RelativeDocumentMoniker": "AlmacenesPorAhi\\Views\\ClienteFormPage.xaml",
+              "ToolTip": "C:\\Users\\jose9\\source\\repos\\net maui\\AlmacenesPorAhi\\Views\\ClienteFormPage.xaml",
+              "RelativeToolTip": "AlmacenesPorAhi\\Views\\ClienteFormPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-22T06:14:27.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\jose9\\source\\repos\\net maui\\AlmacenesPorAhi\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "AlmacenesPorAhi\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\jose9\\source\\repos\\net maui\\AlmacenesPorAhi\\MauiProgram.cs",
+              "RelativeToolTip": "AlmacenesPorAhi\\MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T06:14:09.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainMenuViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\jose9\\source\\repos\\net maui\\AlmacenesPorAhi\\ViewModels\\MainMenuViewModel.cs",
+              "RelativeDocumentMoniker": "AlmacenesPorAhi\\ViewModels\\MainMenuViewModel.cs",
+              "ToolTip": "C:\\Users\\jose9\\source\\repos\\net maui\\AlmacenesPorAhi\\ViewModels\\MainMenuViewModel.cs",
+              "RelativeToolTip": "AlmacenesPorAhi\\ViewModels\\MainMenuViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T06:13:12.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClienteListViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\jose9\\source\\repos\\net maui\\AlmacenesPorAhi\\ViewModels\\ClienteListViewModel.cs",
+              "RelativeDocumentMoniker": "AlmacenesPorAhi\\ViewModels\\ClienteListViewModel.cs",
+              "ToolTip": "C:\\Users\\jose9\\source\\repos\\net maui\\AlmacenesPorAhi\\ViewModels\\ClienteListViewModel.cs",
+              "RelativeToolTip": "AlmacenesPorAhi\\ViewModels\\ClienteListViewModel.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAQwFgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T06:08:57.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProductoService.cs",
+              "DocumentMoniker": "C:\\Users\\jose9\\source\\repos\\net maui\\AlmacenesPorAhi\\Services\\ProductoService.cs",
+              "RelativeDocumentMoniker": "AlmacenesPorAhi\\Services\\ProductoService.cs",
+              "ToolTip": "C:\\Users\\jose9\\source\\repos\\net maui\\AlmacenesPorAhi\\Services\\ProductoService.cs",
+              "RelativeToolTip": "AlmacenesPorAhi\\Services\\ProductoService.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAACkAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T06:06:18.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClienteService.cs",
+              "DocumentMoniker": "C:\\Users\\jose9\\source\\repos\\net maui\\AlmacenesPorAhi\\Services\\ClienteService.cs",
+              "RelativeDocumentMoniker": "AlmacenesPorAhi\\Services\\ClienteService.cs",
+              "ToolTip": "C:\\Users\\jose9\\source\\repos\\net maui\\AlmacenesPorAhi\\Services\\ClienteService.cs",
+              "RelativeToolTip": "AlmacenesPorAhi\\Services\\ClienteService.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAApwGMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T06:06:06.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IClienteService.cs",
+              "DocumentMoniker": "C:\\Users\\jose9\\source\\repos\\net maui\\AlmacenesPorAhi\\Services\\IClienteService.cs",
+              "RelativeDocumentMoniker": "AlmacenesPorAhi\\Services\\IClienteService.cs",
+              "ToolTip": "C:\\Users\\jose9\\source\\repos\\net maui\\AlmacenesPorAhi\\Services\\IClienteService.cs",
+              "RelativeToolTip": "AlmacenesPorAhi\\Services\\IClienteService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T06:05:58.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IProductoService.cs",
+              "DocumentMoniker": "C:\\Users\\jose9\\source\\repos\\net maui\\AlmacenesPorAhi\\Services\\IProductoService.cs",
+              "RelativeDocumentMoniker": "AlmacenesPorAhi\\Services\\IProductoService.cs",
+              "ToolTip": "C:\\Users\\jose9\\source\\repos\\net maui\\AlmacenesPorAhi\\Services\\IProductoService.cs",
+              "RelativeToolTip": "AlmacenesPorAhi\\Services\\IProductoService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwBwAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T06:05:44.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClienteFormViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\jose9\\source\\repos\\net maui\\AlmacenesPorAhi\\ViewModels\\ClienteFormViewModel.cs",
+              "RelativeDocumentMoniker": "AlmacenesPorAhi\\ViewModels\\ClienteFormViewModel.cs",
+              "ToolTip": "C:\\Users\\jose9\\source\\repos\\net maui\\AlmacenesPorAhi\\ViewModels\\ClienteFormViewModel.cs",
+              "RelativeToolTip": "AlmacenesPorAhi\\ViewModels\\ClienteFormViewModel.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAQwD0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T06:05:14.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ClienteListPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\jose9\\source\\repos\\net maui\\AlmacenesPorAhi\\Views\\ClienteListPage.xaml.cs",
+              "RelativeDocumentMoniker": "AlmacenesPorAhi\\Views\\ClienteListPage.xaml.cs",
+              "ToolTip": "C:\\Users\\jose9\\source\\repos\\net maui\\AlmacenesPorAhi\\Views\\ClienteListPage.xaml.cs",
+              "RelativeToolTip": "AlmacenesPorAhi\\Views\\ClienteListPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T06:04:51.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ClienteListPage.xaml",
+              "DocumentMoniker": "C:\\Users\\jose9\\source\\repos\\net maui\\AlmacenesPorAhi\\Views\\ClienteListPage.xaml",
+              "RelativeDocumentMoniker": "AlmacenesPorAhi\\Views\\ClienteListPage.xaml",
+              "ToolTip": "C:\\Users\\jose9\\source\\repos\\net maui\\AlmacenesPorAhi\\Views\\ClienteListPage.xaml",
+              "RelativeToolTip": "AlmacenesPorAhi\\Views\\ClienteListPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-06-22T06:04:29.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\jose9\\source\\repos\\net maui\\AlmacenesPorAhi\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "AlmacenesPorAhi\\AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\jose9\\source\\repos\\net maui\\AlmacenesPorAhi\\AppShell.xaml.cs",
+              "RelativeToolTip": "AlmacenesPorAhi\\AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T06:02:57.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "AppShell.xaml",
               "DocumentMoniker": "C:\\Users\\jose9\\source\\repos\\net maui\\AlmacenesPorAhi\\AppShell.xaml",
               "RelativeDocumentMoniker": "AlmacenesPorAhi\\AppShell.xaml",
@@ -38,48 +285,21 @@
               "RelativeToolTip": "AlmacenesPorAhi\\AppShell.xaml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-06-22T04:35:27.226Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\jose9\\source\\repos\\net maui\\AlmacenesPorAhi\\appsettings.json",
-              "RelativeDocumentMoniker": "AlmacenesPorAhi\\appsettings.json",
-              "ToolTip": "C:\\Users\\jose9\\source\\repos\\net maui\\AlmacenesPorAhi\\appsettings.json",
-              "RelativeToolTip": "AlmacenesPorAhi\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-06-22T04:35:27.268Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\jose9\\source\\repos\\net maui\\AlmacenesPorAhi\\App.xaml",
-              "RelativeDocumentMoniker": "AlmacenesPorAhi\\App.xaml",
-              "ToolTip": "C:\\Users\\jose9\\source\\repos\\net maui\\AlmacenesPorAhi\\App.xaml",
-              "RelativeToolTip": "AlmacenesPorAhi\\App.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-06-22T04:35:27.27Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MauiProgram.cs",
-              "DocumentMoniker": "C:\\Users\\jose9\\source\\repos\\net maui\\AlmacenesPorAhi\\MauiProgram.cs",
-              "RelativeDocumentMoniker": "AlmacenesPorAhi\\MauiProgram.cs",
-              "ToolTip": "C:\\Users\\jose9\\source\\repos\\net maui\\AlmacenesPorAhi\\MauiProgram.cs",
-              "RelativeToolTip": "AlmacenesPorAhi\\MauiProgram.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAqwBUAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-22T04:35:27.272Z",
+              "WhenOpened": "2026-06-22T06:02:22.666Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ClienteFormPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\jose9\\source\\repos\\net maui\\AlmacenesPorAhi\\Views\\ClienteFormPage.xaml.cs",
+              "RelativeDocumentMoniker": "AlmacenesPorAhi\\Views\\ClienteFormPage.xaml.cs",
+              "ToolTip": "C:\\Users\\jose9\\source\\repos\\net maui\\AlmacenesPorAhi\\Views\\ClienteFormPage.xaml.cs",
+              "RelativeToolTip": "AlmacenesPorAhi\\Views\\ClienteFormPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T06:01:29.691Z",
+              "EditorCaption": ""
             }
           ]
         }

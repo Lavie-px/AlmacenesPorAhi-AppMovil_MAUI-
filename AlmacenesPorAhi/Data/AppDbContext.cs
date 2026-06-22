@@ -19,10 +19,12 @@ public class AppDbContext : DbContext
 
     // Tabla de productos. En modulos futuros se agregaran mas DbSet.
     public DbSet<Producto> Productos => Set<Producto>();
+    public DbSet<Cliente> Clientes => Set<Cliente>();
 
     // Datos de semilla: productos de ejemplo que se insertan al crear la BD.
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        //Como estamos usando bases de datos MySql en la nube no es necesario usar el OnModelCreating, solo es necesario con SqlServer
         base.OnModelCreating(modelBuilder);
 
         // Fechas fijas (no DateTime.Now) para que la semilla sea determinista.
