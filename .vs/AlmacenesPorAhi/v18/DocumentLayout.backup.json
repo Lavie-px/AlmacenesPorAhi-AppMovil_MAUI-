@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\jose9\\source\\repos\\movil net\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|AlmacenesPorAhi\\AlmacenesPorAhi.csproj|c:\\users\\jose9\\source\\repos\\movil net\\almacenesporahi\\viewmodels\\clienteformviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|AlmacenesPorAhi\\AlmacenesPorAhi.csproj|solutionrelative:almacenesporahi\\viewmodels\\clienteformviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|AlmacenesPorAhi\\AlmacenesPorAhi.csproj|c:\\users\\jose9\\source\\repos\\movil net\\almacenesporahi\\services\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|AlmacenesPorAhi\\AlmacenesPorAhi.csproj|solutionrelative:almacenesporahi\\services\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|AlmacenesPorAhi\\AlmacenesPorAhi.csproj|c:\\users\\jose9\\source\\repos\\movil net\\almacenesporahi\\views\\clientelistpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|AlmacenesPorAhi\\AlmacenesPorAhi.csproj|solutionrelative:almacenesporahi\\views\\clientelistpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|AlmacenesPorAhi\\AlmacenesPorAhi.csproj|c:\\users\\jose9\\source\\repos\\movil net\\almacenesporahi\\viewmodels\\clienteformviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|AlmacenesPorAhi\\AlmacenesPorAhi.csproj|solutionrelative:almacenesporahi\\viewmodels\\clienteformviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-47A8-9B0C-1D2E3F4A5B6C}|AlmacenesPorAhi\\AlmacenesPorAhi.csproj|c:\\users\\jose9\\source\\repos\\movil net\\almacenesporahi\\viewmodels\\clientelistviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -98,7 +98,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 17,
+          "SelectedChildIndex": 20,
           "Children": [
             {
               "$type": "Bookmark",
@@ -214,7 +214,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ClienteFormPage.xaml",
               "DocumentMoniker": "C:\\Users\\jose9\\source\\repos\\movil net\\AlmacenesPorAhi\\Views\\ClienteFormPage.xaml",
               "RelativeDocumentMoniker": "AlmacenesPorAhi\\Views\\ClienteFormPage.xaml",
@@ -276,20 +276,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ClienteService.cs",
               "DocumentMoniker": "C:\\Users\\jose9\\source\\repos\\movil net\\AlmacenesPorAhi\\Services\\ClienteService.cs",
               "RelativeDocumentMoniker": "AlmacenesPorAhi\\Services\\ClienteService.cs",
-              "ToolTip": "C:\\Users\\jose9\\source\\repos\\movil net\\AlmacenesPorAhi\\Services\\ClienteService.cs*",
-              "RelativeToolTip": "AlmacenesPorAhi\\Services\\ClienteService.cs*",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAqwDQAAAAJAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\jose9\\source\\repos\\movil net\\AlmacenesPorAhi\\Services\\ClienteService.cs",
+              "RelativeToolTip": "AlmacenesPorAhi\\Services\\ClienteService.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAAAFYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-22T06:06:06.461Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "IClienteService.cs",
               "DocumentMoniker": "C:\\Users\\jose9\\source\\repos\\movil net\\AlmacenesPorAhi\\Services\\IClienteService.cs",
               "RelativeDocumentMoniker": "AlmacenesPorAhi\\Services\\IClienteService.cs",
@@ -314,13 +314,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "ClienteFormViewModel.cs",
               "DocumentMoniker": "C:\\Users\\jose9\\source\\repos\\movil net\\AlmacenesPorAhi\\ViewModels\\ClienteFormViewModel.cs",
               "RelativeDocumentMoniker": "AlmacenesPorAhi\\ViewModels\\ClienteFormViewModel.cs",
               "ToolTip": "C:\\Users\\jose9\\source\\repos\\movil net\\AlmacenesPorAhi\\ViewModels\\ClienteFormViewModel.cs",
               "RelativeToolTip": "AlmacenesPorAhi\\ViewModels\\ClienteFormViewModel.cs",
-              "ViewState": "AgIAAGcAAAAAAAAAAAAAAC0AAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAowKsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-22T06:05:14.216Z",
               "EditorCaption": ""
@@ -339,7 +339,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ClienteListPage.xaml",
               "DocumentMoniker": "C:\\Users\\jose9\\source\\repos\\movil net\\AlmacenesPorAhi\\Views\\ClienteListPage.xaml",
               "RelativeDocumentMoniker": "AlmacenesPorAhi\\Views\\ClienteListPage.xaml",
