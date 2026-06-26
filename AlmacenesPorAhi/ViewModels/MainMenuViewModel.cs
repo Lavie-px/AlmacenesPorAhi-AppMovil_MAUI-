@@ -24,6 +24,6 @@ public partial class MainMenuViewModel : ObservableObject
     [RelayCommand]
     private async Task AbrirClientes()
     {
-        await Shell.Current.GoToAsync(nameof(ClientesListPage));
+        await Shell.Current!.GoToAsync(nameof(ClientesListPage));
     }
 }

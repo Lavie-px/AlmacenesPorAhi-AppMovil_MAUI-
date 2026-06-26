@@ -51,8 +51,8 @@ public class Cliente
 
     // Preferencias o notas del cliente
     [StringLength(500)]
-    [Display(Name = "Preferencias")]
-    public string? Preferencias { get; set; }
+    [Display(Name = "Direccion")]
+    public string? Direccion { get; set; }
 
     // Estado del cliente
     [Required]

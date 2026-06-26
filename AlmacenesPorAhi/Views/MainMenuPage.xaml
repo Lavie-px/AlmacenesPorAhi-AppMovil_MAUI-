@@ -57,12 +57,20 @@
 
             <!-- ACCION PRINCIPAL (acento terracota): entra al modulo -->
             <Button Text="Gestión de Inventario"
-                    HeightRequest="56"
-                    BackgroundColor="#E76F51"
-                    TextColor="#FFFFFF"
-                    FontSize="17"
-                    FontAttributes="Bold"
-                    Command="{Binding IrAInventarioCommand}" />
+                HeightRequest="56"
+                BackgroundColor="#E76F51"
+                TextColor="#FFFFFF"
+                FontSize="17"
+                FontAttributes="Bold"
+                Command="{Binding IrAInventarioCommand}" />
+
+            <Button Text="Gestión de Clientes"
+                HeightRequest="56"
+                BackgroundColor="#2D4236"
+                TextColor="#FFFFFF"
+                FontSize="17"
+                FontAttributes="Bold"
+                Command="{Binding AbrirClientesCommand}" />
 
             <Label Text="Módulo 1 · Productos"
                    FontSize="12"

@@ -111,17 +111,17 @@
                         </Border>
                     </VerticalStackLayout>
 
-                    <!-- PREFERENCIAS -->
+                    <!-- direccion -->
                     <VerticalStackLayout Spacing="6">
-                        <Label Text="Preferencias" FontAttributes="Bold" />
+                        <Label Text="Direccion" FontAttributes="Bold" />
                         <Border Stroke="#EAE3D9"
                                 StrokeThickness="1"
                                 StrokeShape="RoundRectangle 10"
                                 Padding="10,4">
-                            <Editor Text="{Binding Preferencias}"
+                            <Editor Text="{Binding Direccion}"
                                     AutoSize="TextChanges"
                                     HeightRequest="70"
-                                    Placeholder="Notas o preferencias del cliente..." />
+                                    Placeholder="direccion" />
                         </Border>
                     </VerticalStackLayout>
 

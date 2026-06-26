@@ -18,35 +18,6 @@ namespace AlmacenesPorAhi.Services
             _dbFactory = dbFactory;
         }
 
-        /// <summary>Inserta un nuevo producto. EF Core asigna el Id automaticamente.</summary>
-        public async Task AgregarAsync(Producto producto)
-        {
-            using var db = await _dbFactory.CreateDbContextAsync();
-            db.Productos.Add(producto);     // marca la entidad para insertar
-            await db.SaveChangesAsync();    // ejecuta el INSERT en la base de datos
-        }
-
-        /// <summary>Actualiza un producto existente (se identifica por su Id).</summary>
-        public async Task ActualizarAsync(Producto producto)
-        {
-            using var db = await _dbFactory.CreateDbContextAsync();
-            db.Productos.Update(producto);  // marca la entidad para actualizar
-            await db.SaveChangesAsync();    // ejecuta el UPDATE
-        }
-
-        /// <summary>Elimina un producto por Id. Si no existe, no hace nada.</summary>
-        public async Task EliminarAsync(int id)
-        {
-            using var db = await _dbFactory.CreateDbContextAsync();
-            var producto = await db.Productos.FindAsync(id);
-            if (producto is not null)
-            {
-                db.Productos.Remove(producto);  // marca la entidad para borrar
-                await db.SaveChangesAsync();    // ejecuta el DELETE
-            }
-        }
-
-
         public async Task<Cliente?> BuscarPorRutAsync(string rut)
         {
             using var db = await _dbFactory.CreateDbContextAsync();
@@ -63,7 +34,21 @@ namespace AlmacenesPorAhi.Services
         public async Task ActualizarAsync(Cliente cliente)
         {
             using var db = await _dbFactory.CreateDbContextAsync();
-            db.Clientes.Update(cliente);
+
+            var existente = await db.Clientes
+                .FirstOrDefaultAsync(c => c.Rut == cliente.Rut);
+
+            if (existente == null)
+                return;
+
+            existente.Nombre = cliente.Nombre;
+            existente.ApellidoPaterno = cliente.ApellidoPaterno;
+            existente.ApellidoMaterno = cliente.ApellidoMaterno;
+            existente.Email = cliente.Email;
+            existente.Telefono = cliente.Telefono;
+            existente.Direccion = cliente.Direccion;
+            existente.Estado = cliente.Estado;
+
             await db.SaveChangesAsync();
         }
 

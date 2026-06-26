@@ -71,11 +71,15 @@ public static class MauiProgram
         builder.Services.AddTransient<MainMenuViewModel>();
         builder.Services.AddTransient<ProductoListViewModel>();
         builder.Services.AddTransient<ProductoFormViewModel>();
+        builder.Services.AddTransient<ClienteListViewModel>();
+        builder.Services.AddTransient<ClienteFormViewModel>();
 
         // Vistas (al registrarlas, el contenedor les inyecta su ViewModel).
         builder.Services.AddTransient<MainMenuPage>();
         builder.Services.AddTransient<ProductoListPage>();
         builder.Services.AddTransient<ProductoFormPage>();
+        builder.Services.AddTransient<ClientesListPage>();
+        builder.Services.AddTransient<ClienteFormPage>();
 
 #if DEBUG
         builder.Logging.AddDebug();
